@@ -1,0 +1,97 @@
+﻿生成启动时间为 2022/11/9 11:10:57。
+     1>项目“C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\GeoStructureAlgLib\GeoStructureAlgLib.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\GeoStructureAlgLib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\VS2010\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /I"C:\Qt\qt-5.5.0-x64-msvc2010-rev0\qt-5.5.0-x64-msvc2010-rev0\include" /I.\GeneratedFiles\Debug /I"C:\Qt\qt-5.5.0-x64-msvc2010-rev0\qt-5.5.0-x64-msvc2010-rev0\include\QtCore" /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D GEOSTRUCTUREALGLIB_LIB /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt GeoSurfaceBody.cpp geostructurealglib.cpp
+         GeoSurfaceBody.cpp
+     1>GeoSurfaceBody.cpp(174): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(174): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(175): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(175): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(177): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(177): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(178): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(178): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(180): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(180): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(181): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(181): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(184): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(184): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(184): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(184): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(185): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(185): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(185): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(185): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(188): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>GeoSurfaceBody.cpp(188): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>E:\VS2010\VC\include\xutility(2239): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 E:\VS2010\VC\include\xutility(2224) : 参见“std::_Copy_impl”的声明
+                 c:\desktop\geostructurealglib 1008\geostructurealglib\geostructurealglib\point3.h(64): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const double*,double*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=double *,
+                     _InIt=const double *
+                 ]
+                 c:\desktop\geostructurealglib 1008\geostructurealglib\geostructurealglib\point3.h(62): 编译类 模板 成员函数“CPoint3_tpl<T>::CPoint3_tpl(const CPoint3_tpl<T> &)”时
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\desktop\geostructurealglib 1008\geostructurealglib\geostructurealglib\GeoPointBody.h(10): 参见对正在编译的类 模板 实例化“CPoint3_tpl<T>”的引用
+                 with
+                 [
+                     T=double
+                 ]
+         geostructurealglib.cpp
+     1>geostructurealglib.cpp(147): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>geostructurealglib.cpp(153): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>geostructurealglib.cpp(170): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>geostructurealglib.cpp(178): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>geostructurealglib.cpp(234): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>geostructurealglib.cpp(254): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“SurfaceType”
+     1>E:\VS2010\VC\include\xutility(2239): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 E:\VS2010\VC\include\xutility(2224) : 参见“std::_Copy_impl”的声明
+                 c:\desktop\geostructurealglib 1008\geostructurealglib\geostructurealglib\point3.h(64): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const double*,double*>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=double *,
+                     _InIt=const double *
+                 ]
+                 c:\desktop\geostructurealglib 1008\geostructurealglib\geostructurealglib\point3.h(62): 编译类 模板 成员函数“CPoint3_tpl<T>::CPoint3_tpl(const CPoint3_tpl<T> &)”时
+                 with
+                 [
+                     T=double
+                 ]
+                 c:\desktop\geostructurealglib 1008\geostructurealglib\geostructurealglib\GeoPointBody.h(10): 参见对正在编译的类 模板 实例化“CPoint3_tpl<T>”的引用
+                 with
+                 [
+                     T=double
+                 ]
+         Generating Code...
+       Link:
+         E:\VS2010\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\x64\Debug\\GeoStructureAlgLib.dll" /NOLOGO /LIBPATH:"C:\Qt\qt-5.5.0-x64-msvc2010-rev0\qt-5.5.0-x64-msvc2010-rev0\lib" qtmaind.lib Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\GeoStructureAlgLib.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\x64\Debug\GeoStructureAlgLib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\x64\Debug\GeoStructureAlgLib.lib" /MACHINE:X64 /DLL x64\Debug\FeatureLineBody.obj
+         x64\Debug\GeoBlockBody.obj
+         x64\Debug\GeoCrossLineBody.obj
+         x64\Debug\GeoGraphBaseObject.obj
+         x64\Debug\GeoGraphLink.obj
+         x64\Debug\geoMath.obj
+         x64\Debug\GeoPointBody.obj
+         x64\Debug\geostructurealglib.obj
+         x64\Debug\GeoSurfaceBody.obj
+         x64\Debug\point3.obj
+         LINK : 没有找到 C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\x64\Debug\\GeoStructureAlgLib.dll 或上一个增量链接没有生成它；正在执行完全链接
+            正在创建库 C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\x64\Debug\GeoStructureAlgLib.lib 和对象 C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\x64\Debug\GeoStructureAlgLib.exp
+         GeoStructureAlgLib.vcxproj -> C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\x64\Debug\GeoStructureAlgLib.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\x64\Debug\\GeoStructureAlgLib.dll;#2" /manifest x64\Debug\GeoStructureAlgLib.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\GeoStructureAlgLib.unsuccessfulbuild”。
+         正在对“x64\Debug\GeoStructureAlgLib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\GeoStructureAlgLib\GeoStructureAlgLib.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.30

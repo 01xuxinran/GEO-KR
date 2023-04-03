@@ -1,0 +1,44 @@
+﻿生成启动时间为 2022/11/8 17:15:13。
+     1>项目“C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\GeoStructureAlgLib\GeoStructureAlgLib.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\GeoStructureAlgLib.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         E:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\Win32\Debug\\GeoStructureAlgLib.dll" /NOLOGO /LIBPATH:"C:\Qt\qt-5.5.0-x64-msvc2010-rev0\qt-5.5.0-x64-msvc2010-rev0\lib" qtmaind.lib Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GeoStructureAlgLib.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\Win32\Debug\GeoStructureAlgLib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\Win32\Debug\GeoStructureAlgLib.lib" /MACHINE:X86 /DLL Debug\FeatureLineBody.obj
+         Debug\GeoBlockBody.obj
+         Debug\GeoCrossLineBody.obj
+         Debug\GeoGraphBaseObject.obj
+         Debug\GeoGraphLink.obj
+         Debug\geoMath.obj
+         Debug\GeoPointBody.obj
+         Debug\geostructurealglib.obj
+         Debug\GeoSurfaceBody.obj
+         Debug\point3.obj
+            正在创建库 C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\Win32\Debug\GeoStructureAlgLib.lib 和对象 C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\Win32\Debug\GeoStructureAlgLib.exp
+     1>GeoGraphLink.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString const &)" (__imp_??0QString@@QAE@ABV0@@Z)，该符号在函数 "public: __thiscall CGeoGraphBaseObject::CGeoGraphBaseObject(class CGeoGraphBaseObject const &)" (??0CGeoGraphBaseObject@@QAE@ABV0@@Z) 中被引用
+     1>GeoPointBody.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString const &)" (__imp_??0QString@@QAE@ABV0@@Z)
+     1>geostructurealglib.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString const &)" (__imp_??0QString@@QAE@ABV0@@Z)
+     1>GeoSurfaceBody.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString const &)" (__imp_??0QString@@QAE@ABV0@@Z)
+     1>FeatureLineBody.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString const &)" (__imp_??0QString@@QAE@ABV0@@Z)
+     1>GeoBlockBody.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString const &)" (__imp_??0QString@@QAE@ABV0@@Z)
+     1>GeoCrossLineBody.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString const &)" (__imp_??0QString@@QAE@ABV0@@Z)
+     1>GeoGraphBaseObject.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(class QString const &)" (__imp_??0QString@@QAE@ABV0@@Z)
+     1>GeoGraphLink.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator=(class QString const &)" (__imp_??4QString@@QAEAAV0@ABV0@@Z)，该符号在函数 "public: class CGeoGraphBaseObject & __thiscall CGeoGraphBaseObject::operator=(class CGeoGraphBaseObject const &)" (??4CGeoGraphBaseObject@@QAEAAV0@ABV0@@Z) 中被引用
+     1>GeoPointBody.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator=(class QString const &)" (__imp_??4QString@@QAEAAV0@ABV0@@Z)
+     1>geostructurealglib.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator=(class QString const &)" (__imp_??4QString@@QAEAAV0@ABV0@@Z)
+     1>GeoSurfaceBody.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator=(class QString const &)" (__imp_??4QString@@QAEAAV0@ABV0@@Z)
+     1>FeatureLineBody.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator=(class QString const &)" (__imp_??4QString@@QAEAAV0@ABV0@@Z)
+     1>GeoBlockBody.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator=(class QString const &)" (__imp_??4QString@@QAEAAV0@ABV0@@Z)
+     1>GeoCrossLineBody.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator=(class QString const &)" (__imp_??4QString@@QAEAAV0@ABV0@@Z)
+     1>GeoGraphBaseObject.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator=(class QString const &)" (__imp_??4QString@@QAEAAV0@ABV0@@Z)
+     1>GeoGraphBaseObject.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::QString(void)" (__imp_??0QString@@QAE@XZ)，该符号在函数 "public: __thiscall CGeoGraphBaseObject::CGeoGraphBaseObject(enum GeoBodyType)" (??0CGeoGraphBaseObject@@QAE@W4GeoBodyType@@@Z) 中被引用
+     1>GeoGraphBaseObject.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::~QString(void)" (__imp_??1QString@@QAE@XZ)，该符号在函数 "public: __thiscall CGeoGraphBaseObject::~CGeoGraphBaseObject(void)" (??1CGeoGraphBaseObject@@QAE@XZ) 中被引用
+     1>geostructurealglib.obj : error LNK2001: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QString::~QString(void)" (__imp_??1QString@@QAE@XZ)
+     1>geostructurealglib.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: class QString & __thiscall QString::operator=(class QString &&)" (__imp_??4QString@@QAEAAV0@$$QAV0@@Z)，该符号在函数 "public: struct std::pair<class QString,class std::vector<class CPoint3_tpl<double>,class std::allocator<class CPoint3_tpl<double> > > > & __thiscall std::pair<class QString,class std::vector<class CPoint3_tpl<double>,class std::allocator<class CPoint3_tpl<double> > > >::operator=(struct std::pair<class QString,class std::vector<class CPoint3_tpl<double>,class std::allocator<class CPoint3_tpl<double> > > > &&)" (??4?$pair@VQString@@V?$vector@V?$CPoint3_tpl@N@@V?$allocator@V?$CPoint3_tpl@N@@@std@@@std@@@std@@QAEAAU01@$$QAU01@@Z) 中被引用
+     1>C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\Win32\Debug\\GeoStructureAlgLib.dll : fatal error LNK1120: 5 个无法解析的外部命令
+     1>已完成生成项目“C:\desktop\GeoStructureAlgLib 1008\GeoStructureAlgLib\GeoStructureAlgLib\GeoStructureAlgLib.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.20
