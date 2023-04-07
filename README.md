@@ -1,4 +1,3 @@
-# Method-for-constructing-knowledge-graph-of-complex-geological-structure-based-on-knowledge-reasoning
 配置环境：vs2010+qt5.5.0（算法实现，从解释数据中推理得到知识图谱数据）
         :pycharm(分层网络绘制)
         
