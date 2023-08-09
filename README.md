@@ -1,5 +1,42 @@
-配置环境：vs2010+qt5.5.0（算法实现，从解释数据中推理得到知识图谱数据）
-        :pycharm(分层网络绘制)
-        
-基本内容：构造解释的不确定性导致基于数据驱动的复杂地质构造建模技术难以满足实际生产应用需求。智能构造建模通过人机协同的方式从构造解释数据中挖掘和提取构造知识，结合解释数据形成知识引导的复杂构造建模新模式。本文针对复杂构造知识图谱构建问题开展研究，提出了基于知识推理的复杂构造知识图谱构建框架和方法。首先通过解释数据抽取复杂地质构造的元知识（比如层面和边界的相交关系、层位和断层的相交关系、断层和边界的相交关系等）并建立了交线、交点、层位、边界、断层之间的基础知识图谱。元知识仅仅描述了两个实体之间的关系，在此之上，利用规则识别交线和交线之间、交线和交点之间的关系，用于交线分割和交点融合，构建子面（利用交线对层位、断层、边界裁剪后形成的最小逻辑单元）逻辑边界的拓扑知识图谱。最后在子面知识图谱的基础上，识别和提取逻辑块的知识图谱。完成复杂构造知识图谱网络的构建。基于上述思想，形成了复杂构造知识图谱构建的流程。通过实际数据的应用测试，本方法能够适应各种复杂地质构造知识图谱的构建，有效支撑智能构造建模的应用。
-![image](https://user-images.githubusercontent.com/101333374/229401407-6d70bf77-6c88-4ee0-a483-7c122aedcd45.png)
+What is knowledge reasoning for model?
+Knowledge inference system is a c++ program for modeling complex geological structures, which is used to realize human-computer interaction and construct modeling constraints. The main features of the model include:
+
+Modular design
+C++ is used to realize the modular construction of knowledge reasoning, which is used to realize the construction of 3D geological structure modeling. The constraints and visualization of existing data are realized through the construction of topological rule base, and the wireframe model is constructed through expert knowledge. The wireframe model conforms to the existing expert cognition and realizes the network visualization and human-computer interaction with python
+
+mpich or openmpi
+PETSc
+PETSc is a library that supports parallel linear algebra, krylov solvers, preconditioners and many other things. Note that PETSc must be compiled with MUMPS and HYPRE.
+Metis
+Metis is a library for partitioning graphs and finite element meshes.
+Tetgen
+TetGen is a program to generate tetrahedral meshes of any 3D polyhedral domains. EMFEM uses it to refine mesh adaptively.
+Eigen
+Eigen is a C++ template library for linear algebra.
+nanoflann
+nanoflann is a C++11 header-only library for building KD-Trees of datasets with different topologies. EMFEM uses it to find the vertex or cell closest to a receiver point efficiently.
+The easiest way to install the dependencies of EMFEM is using spack. All the dependencies can be installed with
+
+$ spack install mpi metis tetgen eigen petsc+mumps+hypre+superlu-dist nanoflann
+Building
+Once installed all the dependencies and unpacked the source code of EMFEM into a directory .
+
+
+$ make
+Note that EMFEM has only been tested on windows systems. 
+
+Usage
+To run the forward modeling process, the user needs to provide three files: the model file, the data template file, and the configuration file. Then use the flowing command to run emfem:
+
+$ mpirun -np <# of processes> ./emfem -options_file <configuration-file-name>
+For more details on the format of these files, please refer to the documentation.
+
+
+
+Contributing
+The users are encouraged to open an issue for any questions or bugs. Pull requests for any enhancement are also wellcomed.
+
+Authors
+xinran xu, University of Electronic and Science Technology of China, Email: xdsxxr@163.com.
+cailu, University of Electronic and Science Technology of China, Email: cailu@uestc.edu.cn.
+youming liu, University of Electronic and Science Technology of China, Email: 1354503251@qq.com.
